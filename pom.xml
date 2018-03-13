@@ -19,7 +19,7 @@
     <groupId>com.adobe.myessentials</groupId>
     <artifactId>aemspace</artifactId>
     <packaging>pom</packaging>
-    <version>1.0.1-SNAPSHOT</version>
+    <version>1.0.2</version>
     <description>aemspace</description>
 
     <modules>
@@ -45,20 +45,11 @@
     </properties>
 	
 	 <scm>
-		  <connection>scm:git:https://github.com/anoopr7/aemspace.git</connection>
-		  <developerConnection>scm:git:git@github.com:anoopr7/aemspace.git</developerConnection>
-		  <url>https://github.com/anoopr7/aemspace.git</url>
+		  <connection>scm:git:https://github.com/anoopr7/aemspace.git/tags/aemspace-1.0.2</connection>
+		  <developerConnection>scm:git:git@github.com:anoopr7/aemspace.git/tags/aemspace-1.0.2</developerConnection>
+		  <url>https://github.com/anoopr7/aemspace.git/tags/aemspace-1.0.2</url>
 		  <tag>HEAD</tag>
 	 </scm>
-	 
-	 <developers>
-		<developer>
-			<email>anoopr7@gmail.com</email>
-			<name>Anoop Rajan</name>
-			<url>https://github.com/anoopr7</url>
-			<id>anoopr07</id>
-		</developer>
-	</developers>
 	 
     <build>
         <plugins>
@@ -72,6 +63,7 @@
                     <preparationGoals>clean install</preparationGoals>
                     <goals>install</goals>
                     <releaseProfiles>release</releaseProfiles>
+                    <autoVersionSubmodules>true</autoVersionSubmodules> 
                 </configuration>
             </plugin>
             <!-- Maven Source Plugin -->
