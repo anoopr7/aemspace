@@ -45,10 +45,20 @@
     </properties>
 	
 	 <scm>
-	  <connection>scm:git:https://github.com/anoopr7/aemspace.git</connection>
-	  <developerConnection>scm:git:https://github.com/anoopr7/aemspace.git</developerConnection>
-	  <url>https://github.com/anoopr7/aemspace.git</url>
+		  <connection>scm:git:https://github.com/anoopr7/aemspace.git</connection>
+		  <developerConnection>scm:git:git@github.com:anoopr7/aemspace.git</developerConnection>
+		  <url>https://github.com/anoopr7/aemspace.git</url>
+		  <tag>HEAD</tag>
 	 </scm>
+	 
+	 <developers>
+		<developer>
+			<email>anoopr7@gmail.com</email>
+			<name>Anoop Rajan</name>
+			<url>https://github.com/anoopr7</url>
+			<id>anoopr07</id>
+		</developer>
+	</developers>
 	 
     <build>
         <plugins>
