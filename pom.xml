@@ -19,7 +19,7 @@
     <groupId>com.adobe.myessentials</groupId>
     <artifactId>aemspace</artifactId>
     <packaging>pom</packaging>
-    <version>1.0.3-SNAPSHOT</version>
+    <version>1.0.5-SNAPSHOT</version>
     <description>aemspace</description>
 
     <modules>
