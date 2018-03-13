@@ -19,7 +19,7 @@
     <parent>
         <groupId>com.adobe.myessentials</groupId>
         <artifactId>aemspace</artifactId>
-        <version>1.0.3</version>
+        <version>1.0.3-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
     <artifactId>aemspace.core</artifactId>
