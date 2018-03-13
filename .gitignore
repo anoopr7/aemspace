@@ -74,3 +74,5 @@ buildNumber.properties
 ### IntelliJ ###
 .idea/
 *.iml
+ui.apps/src/main/content/jcr_root/META-INF/MANIFEST.MF
+ui.content/src/main/content/jcr_root/META-INF/MANIFEST.MF
